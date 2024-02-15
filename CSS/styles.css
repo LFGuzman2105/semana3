@@ -1,0 +1,33 @@
+.divFila {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+}
+
+#Logo {
+    width: 150px;
+    padding: 10px;
+}
+
+#Cuerpo {
+    padding-top: 40px;
+    justify-content: space-evenly;
+}
+
+#datosPersonales {
+    display: flex;
+    flex-direction: column;
+    border-style: solid;
+    border-radius: 20px;
+    padding: 10px;
+    height: 70vh;
+    background-color: #eeeeee;
+}
+
+.Formulario {
+    border-style: solid;
+    border-radius: 20px;
+    padding: 10px;
+    background-color: #eeeeee;
+}
